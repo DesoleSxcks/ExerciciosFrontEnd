@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>IP API - Busca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IP API</h1>
+        <div class="search-box">
+            <input type="text" id="ipInput" placeholder="Digite o IP (ex: 8.8.8.8)">
+            <button id="searchBtn">Pesquisar</button>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>IP</th>
+                    <th>Org</th>
+                    <th>City</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="resultsTable">
+                <!-- Os dados aparecerão aqui -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
