@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>IP Table Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IP Table</h1>
+        
+        <form id="ip-form">
+            <input type="text" id="ip-input" placeholder="IP" required>
+            <input type="text" id="mask-input" placeholder="Mask" required>
+            <input type="text" id="version-input" placeholder="Version" required>
+            <button type="submit" id="add-btn">Add</button>
+        </form>
+
+        <table id="ip-table">
+            <thead>
+                <tr>
+                    <th>IP</th>
+                    <th>Mask</th>
+                    <th>Version</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- As linhas serão inseridas aqui pelo JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
